@@ -1,5 +1,5 @@
 [build]
-  command = "npm run install:ci && npm run build"
+  command = "npm ci && npm run build"
   publish = "dist"  # Adjust the publish directory according to your project setup
 
 [context.production.environment]
